@@ -1,4 +1,4 @@
-html>
+<html>
 <head>
 <style>
 body
@@ -7,13 +7,42 @@ background-image: url("dancee.jpeg") ;
                   background-position: center;
                   size: 100;
                   background-size: cover;
-                  f
 }
+ul {
+                 list-style-type: none;
+                 margin: 0;
+                 padding: 0;
+                 overflow: hidden;
+                 background-color:#12344d;
+               }
+            body{
+                margin: 0;
+                background-color: #f0f2f5;
+            }
+               li {
+                 float: left;
+               }
+               li a {
+                 display: block;
+                 color: white;
+                 text-align: center;
+                 padding: 14px 16px;
+                 text-decoration: none;
+               }
+               li a:hover {
+                 background-color:#052b44;
+               }
 </style>
 </head>
 <body>
-  <h1 style="color:white" align="center">
-  TOGETHER WE DANCE
+  <ul>
+    <li><a class=“active” href="about.html">About Us</a></li>
+    <li><a href="zz.html">Dance Courses</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+    <li><a href="dancers.html">Dance Instructors</a></li>
+  </ul>
+  <h1  align="center">
+  Freshdance Academy
   </h1>
   <span>
     <img src="hip.jpg" alt="hiphop image" width="400" height="300" style="margin:20px;border-radius:15px;">
@@ -39,10 +68,10 @@ background-image: url("dancee.jpeg") ;
 
     <center>
     <form><font color="yellow">
-      <input type="text" style = "padding:10px;margin:20px;width:400px;border-radius:30px;" placeholder="Enter UserName:"><br>
-      <input type="text" style="padding:10px;margin:20px;width:400px;border-radius:30px;" placeholder="Enter Mobile No:"><br><br>
-      <a href="dform.html">
-      <input type="button" value="Join Now" style="background-color:wheat;width:300px;padding:10px;">
+      <input type="text" style = "padding:10px;margin:20px;width:400px;border-radius:30px;" placeholder=" User Name"><br>
+      <input type="text" style="padding:10px;margin:20px;width:400px;border-radius:30px;" placeholder="Mobile No"><br><br>
+      <a href="signup.html">
+      <input type="button" value="Join Now" style="background-color:#12344d;color: white;width:300px;padding:10px;">
     </font>
    </form>
  </center>

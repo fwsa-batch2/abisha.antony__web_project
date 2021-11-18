@@ -1,0 +1,144 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#12344d;
+  }
+
+
+ body{
+   margin: 0;
+ }
+
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color:#052b44;
+  }
+  .para1 p{
+    font-size: 1.5em; 
+    background-color: transparent;
+  }
+
+  button
+  {
+    cursor: pointer;
+    width:350px;
+    border-radius:5px;
+    font-size:30px;
+    background-color: #12344d;
+    color:white;
+    border:none;
+    padding: 20px;
+    
+  }
+  button:hover{
+    background-color: white;
+    color: #12344d;
+    border:1px solid #12344d;
+  }
+  div{
+    display: inline-block;
+  }
+  /* .img{
+    margin-left: 60%;
+  } */
+  .images{
+    margin-left: 290px;
+  }
+  .images1{
+    margin-left: 180px;
+  }
+  .career-in-dance-para{
+    font-size: 1.5em;
+
+  }
+  .career-in-dance{
+    font-size: 3rem;
+    color: #12344d;
+  }
+  .challenges-para{
+    font-size: 1.5em;
+  }
+  .challenges{
+    color: #12344d;
+    font-size: 3rem;
+  }
+ .signup{
+   align-items: center;
+   justify-content:center;
+   margin-top: 15%;
+   border-radius: 24px;
+   background-color:#fff;
+   width:36%;
+   height: 60vh;
+ border:2px white;
+ text-align: center;
+ margin-left: 30%;
+ box-shadow: 5px 5px 10px grey;
+
+
+
+ }
+ .ajay{
+   background-color: #12344d;
+   color: white;
+   padding: 10px;
+   height: 6vh;
+   font-size: 23px;
+      
+
+ }
+ input{
+   margin-top: 5%;
+   margin-bottom:5% ;
+   width: 47%;
+   height: 3vh;
+   border-radius: 7px;
+
+ }
+ .heading{
+   
+   font-size: 4rem;
+   color: #12344d;
+   
+ }
+ .para-left{
+   margin-top: 100px;
+   margin-left: 180px;
+ }
+.para-img{
+  margin-right: 50px;
+}
+.para-common{
+  display: inline-flex;
+  margin-left: 20px;
+}
+
+.para-common-2{
+  margin-top: 50px;
+  display: inline-flex;
+  margin-left: 20px;
+}
+.para-common-3{
+  display: inline-flex;
+  margin-top: 50px;
+}
+.para-img-3{
+margin-left:50px;
+}
+
+.para-img-2{
+  margin-left:50px;
+  }
+  
+

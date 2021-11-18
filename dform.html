@@ -8,13 +8,55 @@ body
                     size: 100;
                     background-size: cover
 }
+.nxt{
+    cursor: pointer;
+    background-color: #12344d;
+    color:white;
+    border:none;
+    padding: 20px;
+    width:200px;
+    border-radius:5px;
+    font-size: 25px;
+}
+.nxt:hover{
+  background-color: white;
+  color: #12344d;
+  border:1px solid #12344d;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#12344d;
+  }
+
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color:#052b44;
+  }
 </style>
 </head>
 <body>
+  <ul>
+    <li><a class=“active” href=“#home”>About Us</a></li>
+    <li><a href=“#news”>Dance Courses</a></li>
+    <li><a href=“#contact”>Contact Us</a></li>
+    <li><a href=“#about”>Dance Instructors</a></li>
+  </ul>
   <p style="color:black"  align="center"><font size="+3">
     What dance form do you want to learn?
   </p>
-  <form>
+  <form action="tq.html">
     <center>
       <input type="radio" id="Hiphop" name="fav_dance" value="Hiphop">
       <label for ="Hiphop">Hiphop</label><br>
@@ -38,8 +80,12 @@ body
         <label for ="Child (less than 18 years of age)">Child (less than 18 years of age)</label><br>
         <input type="radio" id="Adult (Aged 18 years or more)" name="age" value="Adult (Aged 18 years or more)">
         <label for ="Adult (Aged 18 years or more)">Adult (Aged 18 years or more)</label><br><br>
-        <a href="submit.html"
-        class="next">next</a>
+
+
+              <input type="submit" name="" value="next" class="nxt">
+
+
+
 
 
       </form>
@@ -49,6 +95,7 @@ body
 
 
 
-    </center>
 
+    </center>
+  </body>
 </html>
