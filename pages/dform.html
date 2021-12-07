@@ -1,101 +1,113 @@
 <html>
-<head>
-<style>
-body
-{
-  background-image: url("../images/pink.jpeg") ;
-                    background-position: center;
-                    size: 100;
-                    background-size: cover
-}
-.nxt{
-    cursor: pointer;
-    background-color: #12344d;
-    color:white;
-    border:none;
-    padding: 20px;
-    width:200px;
-    border-radius:5px;
-    font-size: 25px;
-}
-.nxt:hover{
-  background-color: white;
-  color: #12344d;
-  border:1px solid #12344d;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color:#12344d;
-  }
 
-  li {
-    float: left;
-  }
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  li a:hover {
-    background-color:#052b44;
-  }
-</style>
+<head>
+  <style>
+    body {
+      background-image: url("../images/pink.jpeg");
+      background-position: center;
+      size: 100;
+      background-size: cover
+    }
+
+    .nxt {
+      cursor: pointer;
+      background-color: #12344d;
+      color: white;
+      border: none;
+      padding: 20px;
+      width: 200px;
+      border-radius: 5px;
+      font-size: 25px;
+    }
+
+    .nxt:hover {
+      background-color: white;
+      color: #12344d;
+      border: 1px solid #12344d;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #12344d;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #052b44;
+    }
+  </style>
 </head>
+
 <body>
+  <form onsubmit="dform()">
   <ul>
     <li><a class=“active” href="about.html">About Us</a></li>
     <li><a href="zz.html">Dance Courses</a></li>
     <li><a href="contact.html">Contact Us</a></li>
     <li><a href="dancers.html">Dance Instructors</a></li>
   </ul>
-  <p style="color:black"  align="center"><font size="+3">
-    What dance form do you want to learn?
+  <p style="color:black" align="center">
+    <font size="+3">
+      What dance form do you want to learn?
   </p>
   <form action="../pages/tq.html">
     <center>
-      <input type="radio" id="Hiphop" name="fav_dance" value="Hiphop">
-      <label for ="Hiphop">Hiphop</label><br>
-      <input type="radio" id="Salsa" name="fav_dance" value="Salsa">
-      <label for ="Salsa">Salsa</label><br>
-      <input type="radio" id="Garba" name="fav_dance" value="Garba">
-      <label for ="Garba">Garba</label><br>
-      <input type="radio" id="Bhangra" name="fav_dance" value="Bhangra">
-      <label for ="Bhangra">Bhangra</label><br>
-      <p align="center"><font size+"+3">
-        Where do you prefer to take classes?
+      <input type="radio" id="Hiphop" name="fav_dance" value="Hiphop" required>
+      <label for="Hiphop">Hiphop</label><br>
+      <input type="radio" id="Salsa" name="fav_dance" value="Salsa" required>
+      <label for="Salsa">Salsa</label><br>
+      <input type="radio" id="Garba" name="fav_dance" value="Garba" required>
+      <label for="Garba">Garba</label><br>
+      <input type="radio" id="Bhangra" name="fav_dance" value="Bhangra" required>
+      <label for="Bhangra">Bhangra</label><br>
+      <p align="center">
+        <font size+"+3">
+          Where do you prefer to take classes?
       </p>
       <input type="radio" id="Dance Academy" name="class" value="Dance Academy">
-      <label for ="Dance Academy">Dance Academy</label><br>
+      <label for="Dance Academy">Dance Academy</label><br>
       <input type="radio" id="Online" name="class" value="Online">
-      <label for ="Online">Online</label><br>
-        <p align="center"><font size+"+3">
+      <label for="Online">Online</label><br>
+      <p align="center">
+        <font size+"+3">
           Please choose the student's age group
-        </p>
-        <input type="radio" id="Child (less than 18 years of age)" name="age" value="Child (less than 18 years of age)">
-        <label for ="Child (less than 18 years of age)">Child (less than 18 years of age)</label><br>
-        <input type="radio" id="Adult (Aged 18 years or more)" name="age" value="Adult (Aged 18 years or more)">
-        <label for ="Adult (Aged 18 years or more)">Adult (Aged 18 years or more)</label><br><br>
+      </p>
+      <input type="radio" id="Child (less than 18 years of age)" name="age" value="Child (less than 18 years of age)">
+      <label for="Child (less than 18 years of age)">Child (less than 18 years of age)</label><br>
+      <input type="radio" id="Adult (Aged 18 years or more)" name="age" value="Adult (Aged 18 years or more)">
+      <label for="Adult (Aged 18 years or more)">Adult (Aged 18 years or more)</label><br><br>
 
 
-              <input type="submit" name="" value="next" class="nxt">
-
-
-
-
-
-      </form>
+      <input type="submit"  value="next" class="nxt">
 
 
 
 
 
+  </form>
 
 
-    </center>
-  </body>
+
+
+
+
+
+  </center>
+  </form>
+</body>
+
 </html>
