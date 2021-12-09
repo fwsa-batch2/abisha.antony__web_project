@@ -17,8 +17,15 @@ function sign() {
     let enterPass = document.getElementById('createpass').value;
     let confirmPass = document.getElementById('confirmpass').value;
 
+   const emailexists = emailvalid(email);
 
-
+   if(enterPass != confirmPass){
+       alert('passsword mismatched');
+   }
+   else if(emailexists) {
+      alert("invalid email");
+   }
+   else{
     const userObj = {
         'Username': name,
         'phnumber': phno,
@@ -26,66 +33,31 @@ function sign() {
         'enterpassword': enterPass,
         'confirmpassword': confirmPass
     }
+    storeArr.push(userObj);
+    let userlist =JSON.stringify(storeArr);
+    localStorage.setItem("key",userlist);
+    window.location.href="tq.html"
 
-
-      let mailid = validid(email);
-         if (mailid) {
-        alert('email id already exist');
-        return;
-
-    }
-
-
-
-      let isMatch = passwordchecking();
-
-    if (isMatch) {
-        storeArr.push(userObj);
-        let objDetail = JSON.stringify(storeArr)
-        localStorage.setItem('list', objDetail);
-        window.location.href = "tq.html";
-    }
-    else {
-        alert('Passwords do not match');
-    }
-
+   }
 }
 
-  function passwordchecking() {
-
-    let enterPass = document.getElementById("createpass").value;
-    let confirmPass = document.getElementById("confirmpass").value;
-
-
-    if (enterPass == confirmPass) {
-        console.log("password matched")
-        return true;
+function emailvalid(currentemail){
+    let used = false;
+    for(i=0;i<storeArr.length;i++){
+        const email = storeArr[i].gmail;
+        if(currentemail == email ){
+            used = true;
+        }
     }
-    else {
-        return false;
-    }
+    return used;
 }
 
-function validid(current_mail){
+ 
 
-let mailId = JSON.parse(localStorage.getItem("list"));
-let used = false;
-
-for (i = 0; i < user.length; i++) {
-    let userlist = user[i];
-    let email = userlist.email;
-
-    if (current_mail == email) {
-        user = true;
-        break;
-    }
-        return used;
-
-    }
-}
 
 
 
 onPageLoad();
 
 
+ih;;;;;
