@@ -6,21 +6,21 @@
 
 </head>
 <body>
-  <form onsubmit="signup()"> 
+  
   <h1 style="text-align:center;font-size:50px;margin-top:5%;">
-    Send Us Message
+    REGISTER
   </h1>
     <div class="signup">
-    <form action="tq.html">
-        <input type="text" required placeholder="UserName" class="top"required><br>
-        <input type="tel" required placeholder="Phone number"required><br>
-        <input type="email" required placeholder="Email"required><br>
-        <input type="password" required placeholder=" Create Password"required><br>
-        <input type="password" required placeholder=" Confirm Password"required><br>
+    <form onsubmit="sign()">
+        <input type="text" placeholder="UserName" class="top" id="username" required><br>
+        <input type="tel" placeholder="Phone number" id="phnumber" required><br>
+        <input type="email" required placeholder="Email" id="email" required><br>
+        <input type="password" id = "createpass"required placeholder=" Create Password" min="0000001" minlength="6" required><br>
+        <input type="password" id= "confirmpass"required placeholder=" Confirm Password"required><br>
         <input type="Submit" value="Submit" class="ajay">
       </form>
     </div>
-    </form>
+    
     <script src="signup.js"></script>
 </body>
 </html>
