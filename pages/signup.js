@@ -1,8 +1,8 @@
 let storeArr = [];
-
+onPageLoad();
 function onPageLoad() {
-    const users = JSON.parse(localStorage.getItem("list"));
-    if(users!=null){
+    const users = JSON.parse(localStorage.getItem("user"));
+    if(users){
     storeArr = users;
 }
 }
@@ -22,10 +22,11 @@ function sign() {
    if(enterPass != confirmPass){
        alert('passsword mismatched');
    }
-   else if(emailexists) {
+   if(emailexists) {
       alert("invalid email");
+      return;
    }
-   else{
+   
     const userObj = {
         'Username': name,
         'phnumber': phno,
@@ -35,29 +36,25 @@ function sign() {
     }
     storeArr.push(userObj);
     let userlist =JSON.stringify(storeArr);
-    localStorage.setItem("key",userlist);
+    localStorage.setItem("user",userlist);
     window.location.href="tq.html"
 
    }
-}
+
 
 function emailvalid(currentemail){
+    let userDetails=JSON.parse(localStorage.getItem("user"))
     let used = false;
-    for(i=0;i<storeArr.length;i++){
-        const email = storeArr[i].gmail;
+    if(userDetails) {
+    for(i=0;i<userDetails.length;i++){
+        const userList=userDetails[i];
+        const email = userList.gmail;
         if(currentemail == email ){
             used = true;
         }
     }
     return used;
 }
-
- 
-
+}
 
 
-
-onPageLoad();
-
-
-ih;;;;;
