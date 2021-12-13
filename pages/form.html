@@ -1,5 +1,4 @@
 <html>
-
 <head>
   <style>
     body {
@@ -18,6 +17,7 @@
       width: 200px;
       border-radius: 5px;
       font-size: 25px;
+      margin-left: 45%;
     }
 
     .nxt:hover {
@@ -49,47 +49,62 @@
     li a:hover {
       background-color: #052b44;
     }
+  
+    
   </style>
 </head>
 
 <body>
   
   <ul>
-    <li><a class=“active” href="aboutus.html">About Us</a></li>
+    <li><a class="active" href="aboutus.html">About Us</a></li>
     <li><a href="dancecourses.html">Dance Courses</a></li>
     <li><a href="contactus.html">Contact Us</a></li>
     <li><a href="masters.html">Dance Instructors</a></li>
   </ul>
+  <form action="./tq.html" style="text-align: center;" ></form>
   <p style="color:black" align="center">
     <font size="+3">
       What dance form do you want to learn?
   </p>
-  <form action="./tq.html" style="text-align: center;" >
-    
-      <input type="radio" id="Hiphop" name="fav_dance" value="Hiphop" required>
+    <div style="margin-left: 45%;">
+     <input type="radio" id="Hiphop" name="fav_dance" value="Hiphop" required>
       <label for="Hiphop">Hiphop</label><br>
-      <input type="radio" id="Salsa" name="fav_dance" value="Salsa" required>
+    </div>
+    <div  style="margin-left: 45%;"><input type="radio" id="Salsa" name="fav_dance" value="Salsa" required>
       <label for="Salsa">Salsa</label><br>
-      <input type="radio" id="Garba" name="fav_dance" value="Garba" required>
+    </div>
+      <div style="margin-left: 45%;"> <input type="radio" id="Garba" name="fav_dance" value="Garba" required>
       <label for="Garba">Garba</label><br>
-      <input type="radio" id="Bhangra" name="fav_dance" value="Bhangra" required>
+    </div>
+      <div  style="margin-left: 45%;"> <input type="radio" id="Bhangra" name="fav_dance" value="Bhangra" required>
       <label for="Bhangra">Bhangra</label><br>
-      <p text-align="center">
+    </div>
+      
+      <p align="center">
         <font-size="+3">
           Where do you prefer to take classes?
       </p>
+      <div style="margin-left: 45%;"> 
       <input type="radio" id="Dance Academy" name="class" value="Dance Academy">
       <label for="Dance Academy">Dance Academy</label><br>
+    </div>
+      <div style="margin-left: 45%;"> 
       <input type="radio" id="Online" name="class" value="Online">
       <label for="Online">Online</label><br>
+    </div>
       <p align="center">
         <font size+"+3">
           Please choose the student's age group
       </p>
+      <div style="margin-left: 40%;"> 
       <input type="radio" id="Child (less than 18 years of age)" name="age" value="Child (less than 18 years of age)">
       <label for="Child (less than 18 years of age)">Child (less than 18 years of age)</label><br>
+      </div>
+      <div style="margin-left: 40%;"> 
       <input type="radio" id="Adult (Aged 18 years or more)" name="age" value="Adult (Aged 18 years or more)">
       <label for="Adult (Aged 18 years or more)">Adult (Aged 18 years or more)</label><br><br>
+     </div>
 
 
       <input type="submit"  value="next" class="nxt">
