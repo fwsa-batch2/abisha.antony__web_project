@@ -1,38 +1,7 @@
 <html>
 <head>
-<style>
-body
-{
-background-image: url("../images/blackdance.jpeg") ;
-                  background-position: center;
-                  size: 100;
-                  background-size: cover; 
-}
-ul {
-                 list-style-type: none;
-                 margin: 0;
-                 padding: 0;
-                 overflow: hidden;
-                 background-color:#12344d;
-               }
-            body{
-                margin: 0;
-                background-color: #f0f2f5;
-            }
-               li {
-                 float: left;
-               }
-               li a {
-                 display: block;
-                 color: white;
-                 text-align: center;
-                 padding: 14px 16px;
-                 text-decoration: none;
-               }
-               li a:hover {
-                 background-color:#052b44;
-               }
-</style>
+  <link rel="stylesheet" type="text/css" href="../css/course.css">
+
 </head>
 <body>
   <ul>
@@ -41,38 +10,38 @@ ul {
     <li><a href="./contactus.html">Contact Us</a></li>
     <li><a href="./masters.html">Dance Instructors</a></li>
   </ul>
-  <h1  align="center">
+  <h1 id="h1" >
   Freshdance Academy
   </h1>
   <span>
-    <img src="../images/hip.jpg" alt="hiphop image" width="400" height="300" style="margin:20px;border-radius:15px;">
-    <img src="../images/salsa.jpeg" alt="hiphop image" width="400" height="300" style="margin:20px;border-radius:15px;">
-    <img src="../images/gar.jpg" alt="hiphop image" width="400" height="300" style="margin:20px;border-radius:15px;">
-    <img src="../images/bhangra.jpeg" alt="hiphop image" width="400" height="300" style="margin:20px;border-radius:15px;">
+    <img src="../images/hip.jpg" alt="hiphop image" id="img1" >
+    <img src="../images/salsa.jpeg" alt="hiphop image" id="img2" >
+    <img src="../images/gar.jpg" alt="hiphop image"  id="img3">
+    <img src="../images/bhangra.jpeg" alt="hiphop image" id ="img4">
     </span>
 
 
   <a href="hiphop.html">
-     <button style="width:400px;padding:10px;margin:20px;border-radius:5px;"><font size="+2">Hiphop</font></button>
+     <button>Hiphop</button>
 
    </a>
    <a href="salsa.html">
-   <button style="width:400px;padding:10px;margin:20px;border-radius:5px;"><font size="+2">Salsa</font></button>
+   <button>Salsa</button>
  </a>
  <a href="garba.html">
-   <button style="width:400px;padding:10px;margin:20px;border-radius:5px;"><font size="+2">Garba</font></button>
+   <button >Garba</button>
  </a>
   <a href="bhangra.html">
-      <button style="width:400px;padding:10px;margin:20px;border-radius:5px;"><font size="+2">Bhangra</font></button>
+      <button  >Bhangra</button>
   </a>
 
     <center>
-    <form><font color="yellow">
-      <input type="text" style = "padding:10px;margin:20px;width:400px;border-radius:30px;" placeholder=" User Name" required><br>
-      <input type="text" style="padding:10px;margin:20px;width:400px;border-radius:30px;" placeholder="Mobile No" required><br><br>
-      <a href="signup.html">
-      <input type="button" value="Join Now" style="background-color:#12344d;color: white;width:300px;padding:10px;">
-    </font>
+    <form action="signup.html">
+      <input type="text"  placeholder=" User Name" required><br>
+      <input type="text"  placeholder="Mobile No" required><br><br>
+      
+      <input type="submit" value="Join Now" style="background-color:#12344d;color: white;width:300px;padding:10px;">
+    
    </form>
  </center>
 

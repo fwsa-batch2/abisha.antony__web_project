@@ -2,7 +2,7 @@ let storeArr = [];
 onPageLoad();
 function onPageLoad() {
     const users = JSON.parse(localStorage.getItem("user"));
-    if(users){
+    if(users != null){
     storeArr = users;
 }
 }
@@ -21,12 +21,11 @@ function sign() {
 
    if(enterPass != confirmPass){
        alert('passsword mismatched');
-   }
-   if(emailexists) {
+    
+   } else if(emailexists) {
       alert("invalid email");
       return;
-   }
-   
+   } else{
     const userObj = {
         'Username': name,
         'phnumber': phno,
@@ -40,7 +39,8 @@ function sign() {
     window.location.href="tq.html"
 
    }
-
+}
+    
 
 function emailvalid(currentemail){
     let userDetails=JSON.parse(localStorage.getItem("user"))

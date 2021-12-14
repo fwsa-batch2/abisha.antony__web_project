@@ -1,0 +1,75 @@
+body
+{
+background-image: url("../images/blackdance.jpeg") ;
+                  background-position: center;
+                  size: 100;
+                  background-size: cover; 
+}
+ul {
+                 list-style-type: none;
+                 margin: 0;
+                 padding: 0;
+                 overflow: hidden;
+                 background-color:#12344d;
+               }
+            body{
+                margin: 0;
+                background-color: #f0f2f5;
+            }
+               li {
+                 float: left;
+               }
+               li a {
+                 display: block;
+                 color: white;
+                 text-align: center;
+                 padding: 14px 16px;
+                 text-decoration: none;
+               }
+               li a:hover {
+                 background-color:#052b44;
+               }
+#img1{
+    width:20%;
+     height:30%;
+      margin:2%;
+      border-radius:15px;
+}
+#img2{
+    width:20%;
+     height:30%;
+      margin:2%;
+      border-radius:15px;
+}
+#img3{
+    width:20%;
+     height:30%;
+      margin:2%;
+      border-radius:15px;
+}
+#img4{
+    width:20%;
+     height:30%;
+      margin:2%;
+      border-radius:15px;
+}
+#h1{
+    text-align: center;
+    color: white;
+}
+button{
+     width:20%;
+     padding:0.5%;
+     margin:2%;
+     border-radius:5px;
+     font-size: 1.5vw;
+
+}
+input{
+  padding:0.5%;
+   margin:1%; 
+  width:15%;
+  border-radius:30px;
+  font-size: 1vw;
+  
+}
