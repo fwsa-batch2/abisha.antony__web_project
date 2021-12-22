@@ -1,0 +1,63 @@
+body
+{
+background-color: aliceblue;
+background-image: url(../images/contact.jpg);
+                background-position: center;
+                size: 100;
+                background-size: cover;
+
+
+              } 
+ul {
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+         overflow: hidden;
+         background-color:#12344d;
+       }
+    body{
+        margin: 0;
+        background-color: #f0f2f5;
+    }
+       li {
+         float: left;
+       }
+       li a {
+         display: block;
+         color: white;
+         text-align: center;
+         padding: 14px 16px;
+         text-decoration: none;
+       }
+       li a:hover {
+         background-color:#052b44;
+       }
+       h1{
+         color: yellow;
+         font-size: 28px;
+         margin-left: 25%;
+       }
+       p{
+         color: white;
+         font-size: 26px;
+         margin-left: 25%;
+       }
+       input
+       {
+         background-color: black;
+         margin-left: 25%;
+        
+
+       }
+       textarea{
+         background-color: black;
+         margin-left: 25%;
+         width: 73%;
+
+       }
+       .submit{
+         background-color: yellow;
+         width:9%;
+         height: 9%;
+       }
+

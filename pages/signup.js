@@ -1,16 +1,20 @@
 let storeArr = [];
 onPageLoad();
 function onPageLoad() {
+    console.group("onPageLoad");
     const users = JSON.parse(localStorage.getItem("user"));
+    console.log(users);
     if(users != null){
     storeArr = users;
 }
+console.groupEnd("OnPageLoad");
 }
 
 
 
 function sign() {
     event.preventDefault();
+    console.group("sign");
     let name = document.getElementById('username').value;
     let phno = document.getElementById('phnumber').value;
     let email = document.getElementById('email').value;
@@ -18,6 +22,7 @@ function sign() {
     let confirmPass = document.getElementById('confirmpass').value;
 
    const emailexists = emailvalid(email);
+   console.table(emailexists);
 
    if(enterPass != confirmPass){
        alert('passsword mismatched');
@@ -39,6 +44,7 @@ function sign() {
     window.location.href="tq.html"
 
    }
+   console.groupEnd("sign");
 }
     
 

@@ -4,6 +4,8 @@ background-image: url("../images/blackdance.jpeg") ;
                   background-position: center;
                   size: 100;
                   background-size: cover; 
+                  margin: 0;
+                  background-color: #f0f2f5;
 }
 ul {
                  list-style-type: none;
@@ -12,10 +14,9 @@ ul {
                  overflow: hidden;
                  background-color:#12344d;
                }
-            body{
-                margin: 0;
-                background-color: #f0f2f5;
-            }
+      
+               
+            
                li {
                  float: left;
                }
