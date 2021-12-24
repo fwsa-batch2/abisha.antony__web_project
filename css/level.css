@@ -3,6 +3,7 @@ body {
   background-position: center;
   size: 100;
   background-size: cover;
+  margin: 0;
 }
 .img-one {
   width: 50%;
@@ -150,12 +151,6 @@ ul {
   overflow: hidden;
   background-color:#12344d;
 }
-
-
-body{
- margin: 0;
-}
-
 li {
   float: left;
 }

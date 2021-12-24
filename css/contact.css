@@ -5,7 +5,8 @@ background-image: url(../images/contact.jpg);
                 background-position: center;
                 size: 100;
                 background-size: cover;
-
+                margin: 0;
+               
 
               } 
 ul {
@@ -15,10 +16,7 @@ ul {
          overflow: hidden;
          background-color:#12344d;
        }
-    body{
-        margin: 0;
-        background-color: #f0f2f5;
-    }
+    
        li {
          float: left;
        }
