@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./css/review.css">
+</head>
+<body>
+    <div class="review">
+    <form onsubmit="review()">
+        <input type="text" placeholder="Enter Your Name" id="name" required><br>
+        <input type="email" placeholder="Enter Your email" id="gmail" required><br>
+        <input list="ratings" name="rating" id="rating"><br>
+        <datalist id="ratings">`
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </datalist>
+        <input type="text" id="feedback" ><br>
+        <button type=" submit" value="submit">
+            </button>
+        </div>
+    </form>
+  <div id="text">
+
+  </div>
+  <script src="./review.js"></script>
+</body>
+</html>

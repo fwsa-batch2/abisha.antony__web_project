@@ -118,7 +118,7 @@ th {
   width: 150px;
   border-radius: 5px;
   font-size: 25px;
-  margin-left: 90%;
+  margin-left: 88%;
 }
 .cart:hover {
   background-color: white;
@@ -163,4 +163,5 @@ li a {
 }
 li a:hover {
   background-color:#052b44;
+  
 }

@@ -9,4 +9,7 @@ else if(document.getElementById("salsa").checked){
 else if(document.getElementById("garba").checked){
     document.getElementById("gvm").innerHTML=document.getElementById("garba").value+"radio button is checked"
 }
+else if(document.getElementById("bhangra").checked){
+    document.getElementById("abi").innerHTML=document.getElementById("bhangra").value+"radio button is checked"
+}
 }
