@@ -22,11 +22,12 @@ function review(){
         }
         fullarr.push(reviewlist);
         localStorage.setItem("reviewer",JSON.stringify(fullarr));
-        main.innerText="Thank you for reviewing us"
+       alert("Thank you for reviewing us");
     }
-    else{
+    else  {
         alert("please use the registered email to review");
         return null;
+        
     }
 }
 function isuserexist(paraemail){

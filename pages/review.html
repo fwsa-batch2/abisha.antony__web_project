@@ -5,24 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="./css/review.css">
+    <link rel="stylesheet" type="text/css" href="../css/review.css">
 </head>
+<style>
+body
+{
+background-color: #f0f2f5;
+margin: 0;
+}
+li {
+    float: left;
+  }
+  ul {
+                 list-style-type: none;
+                 margin: 0;
+                 padding: 0;
+                 overflow: hidden;
+                 background-color:#12344d;
+               }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color:#052b44;
+  }
+
+  
+  
+  .submit{
+    font-size: 2vh;
+  }
+  </style>
 <body>
+    <ul>
+        <li><a href="./aboutus.html">About Us</a></li>
+        <li><a href="./dancecourses.html">Dance Styles</a></li>
+        <li><a href="./contactus.html">Contact Us</a></li>
+        <li><a href="./masters.html">Dance Instructors</a></li>
+        <li><a href="./level.html">Dance Courses</a></li>
+        <li><a href="./review.html">Review</a></li>
+      </ul>
     <div class="review">
     <form onsubmit="review()">
         <input type="text" placeholder="Enter Your Name" id="name" required><br>
         <input type="email" placeholder="Enter Your email" id="gmail" required><br>
-        <input list="ratings" name="rating" id="rating"><br>
-        <datalist id="ratings">`
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-        </datalist>
+        <!-- <input list="ratings" name="rating" id="rating"><br> -->
+        <select>
+        <option value="stars"id="star1" style="color: black;">&#9734;&#9734;&#9734;&#9734;&#9734;:star::star:</option>
+        <option value="&#11088;&#11088;&#11088;&#11088;&#11088;">&#11088;&#11088;&#11088;&#11088;&#11088;</option>
+        <option value="&#11088;&#11088;&#11088;&#11088;">&#11088;&#11088;&#11088;&#11088;</option>
+        <option value="&#11088;&#11088;&#11088;">&#11088;&#11088;&#11088;</option>
+        <option value="&#11088;&#11088;">&#11088;&#11088;</option>
+        <option value="&#11088;">&#11088;</option>
+        </select> 
+    
+    
+    
+    
         <input type="text" id="feedback" ><br>
-        <button type=" submit" value="submit">
+        <a href="./ourreviews.html">
+        <button value="submit" class="submit">Submit
             </button>
+            </a>
+           
         </div>
     </form>
   <div id="text">

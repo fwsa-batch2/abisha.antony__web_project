@@ -30,31 +30,31 @@ ul {
                li a:hover {
                  background-color:#052b44;
                }
-#img1{
+.img1{
     width: 20%;
      height:30%;
       margin:2%;
       border-radius:15px;
 }
-#img2{
+.img2{
     width:20%;
      height:30%;
       margin:2%;
       border-radius:15px;
 }
-#img3{
+.img3{
     width:20%;
      height:30%;
       margin:2%;
       border-radius:15px;
 }
-#img4{
+.img4{
     width:20%;
      height:30%;
       margin:2%;
       border-radius:15px;
 }
-#h1{
+h1{
     text-align: center;
     color: white;
 }

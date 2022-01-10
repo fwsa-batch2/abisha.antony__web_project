@@ -10,10 +10,11 @@
 <body>
         <ul>
             <li><a class=“active” href="aboutus.html">About Us</a></li>
-            <li><a href="dancecourses.html" >Dance Courses</a></li>
+            <li><a href="dancecourses.html" >Dance Styles</a></li>
             <li><a href="contactus.html">Contact Us</a></li>
             <li><a href="masters.html">Dance Instructors</a></li>
-            <li><a href="level.html">Dance Styles</a></li>
+            <li><a href="level.html">Dance Courses</a></li>
+            <li><a href="review.html">Review</a></li>
           </ul>
         <table>
 <tr><td>
@@ -45,19 +46,19 @@
         </P>
        </td>
         <td>
-          <form>
-            <h1>
-              QUICK ENQUIRY
-            </h1><br>
-            <input type="text"   placeholder="NAME"><br>
-            <input type="email" placeholder="EMAIL"><br>
-            <input type="tel" placeholder="MOBILE NO:"><br>
-            <textarea id="comments" name="comments" placeholder="MESSAGE" cols="9" rows="4" ></textarea><br>
-            <input type="submit" value="SUBMIT" class="submit" style="width:72%">
+          <h1>QUICK ENQUIRY</h1>
+          <form onsubmit="contact(event)">
+
+            <input type="text"   id="name" placeholder="NAME"><br>
+            <input type="email"  id="email" placeholder="EMAIL"><br>
+            <input type="tel"  id="mobile" placeholder="MOBILE NO:">  <br>
+            <textarea id="comments" name="comments"  placeholder="MESSAGE" cols="9" rows="4"  ></textarea><br>
+            <button type="submit">Submit</button>
           </form>
 
         </td></tr>
         
         </table>
+        <script src="./contact.js"></script>
     </body>
  </html>

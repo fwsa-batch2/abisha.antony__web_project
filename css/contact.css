@@ -44,6 +44,8 @@ ul {
        {
          background-color: black;
          margin-left: 25%;
+         color: white;
+
         
 
        }
@@ -51,11 +53,14 @@ ul {
          background-color: black;
          margin-left: 25%;
          width: 73%;
+         color: white;
 
        }
-       .submit{
+       button{
          background-color: yellow;
          width:9%;
          height: 9%;
+         margin-left: 28%;
+         width:47% ;
        }
 
