@@ -114,7 +114,7 @@ background-color: black;
     position: absolute;
     top: 0;
     right: 0;
-    width: 20%;
+    
   }
   h2,h1{
     color: chocolate;
@@ -123,4 +123,7 @@ background-color: black;
     width: 59%;
     height: 40%;
   } 
-  
+  #media{
+    display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+  }

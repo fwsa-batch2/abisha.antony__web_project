@@ -6,6 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contactus</title>
     <link rel="stylesheet" type="text/css" href="../css/contact.css">
+    <style>
+      #maindiv{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+      #maindiv > div{
+      
+      }
+    </style>
    </head>
 <body>
         <ul>
@@ -16,49 +25,42 @@
             <li><a href="level.html">Dance Courses</a></li>
             <li><a href="review.html">Review</a></li>
           </ul>
-        <table>
-<tr><td>
+          <div id="maindiv">
+          <div> <h1>
+            NEW DELHI OFFICE
+          </h1>
+          <P>
+            Fresh Dance Academy,C-2,Creche Plot,<br>
+            Sushant Lok Phase 1,<br>
+            Near Vyapar Kendra,<br>
+            Gurgaon -122 002,<br>
+            Haryana,India.,<br>
+          <br>
+          <br></div>
+          <div>        <h1>
+            MUMBAI OFFICE
+          </h1>
+          <P>
+            Fresh Dance Academy,<br>
+            314,Lakshmi Business Park,<br>
+            Laxmi Industrial estate,<br>
+            New Link Road,Andhra West,<br>
+            Mumbai-400053,<br>
+            Maharastra,India.<br>
+          </P>
+          </div>
+          <div>  <h1>QUICK ENQUIRY</h1>
+            <form onsubmit="contact(event)">
   
-  <h1>
-    NEW DELHI OFFICE
-  </h1>
-  <P>
-    Fresh Dance Academy,C-2,Creche Plot,<br>
-    Sushant Lok Phase 1,<br>
-    Near Vyapar Kendra,<br>
-    Gurgaon -122 002,<br>
-    Haryana,India.,<br>
-  <br>
-  <br>
-  </P>
-</td>
-      <td>
-        <h1>
-          MUMBAI OFFICE
-        </h1>
-        <P>
-          Fresh Dance Academy,<br>
-          314,Lakshmi Business Park,<br>
-          Laxmi Industrial estate,<br>
-          New Link Road,Andhra West,<br>
-          Mumbai-400053,<br>
-          Maharastra,India.<br>
-        </P>
-       </td>
-        <td>
-          <h1>QUICK ENQUIRY</h1>
-          <form onsubmit="contact(event)">
-
-            <input type="text"   id="name" placeholder="NAME"><br>
-            <input type="email"  id="email" placeholder="EMAIL"><br>
-            <input type="tel"  id="mobile" placeholder="MOBILE NO:">  <br>
-            <textarea id="comments" name="comments"  placeholder="MESSAGE" cols="9" rows="4"  ></textarea><br>
-            <button type="submit">Submit</button>
-          </form>
-
-        </td></tr>
-        
-        </table>
+              <input type="text"   id="name" placeholder="NAME" required><br>
+              <input type="email"  id="email" placeholder="EMAIL" required><br>
+              <input type="tel"  id="mobile" placeholder="MOBILE NO:" required>  <br>
+              <textarea id="comments" name="comments"  placeholder="MESSAGE" cols="9" rows="4"  required></textarea><br>
+              <button type="submit">Submit</button>
+            </form>
+  </div>
+          </div>
+      
         <script src="./contact.js"></script>
     </body>
  </html>

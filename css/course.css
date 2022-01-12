@@ -30,27 +30,27 @@ ul {
                li a:hover {
                  background-color:#052b44;
                }
-.img1{
-    width: 20%;
-     height:30%;
+#img1{
+  width:auto;
+  height:250px;
       margin:2%;
       border-radius:15px;
 }
-.img2{
-    width:20%;
-     height:30%;
+#img2{
+  width:auto;
+  height:250px;
       margin:2%;
       border-radius:15px;
 }
-.img3{
-    width:20%;
-     height:30%;
+#img3{
+  width:auto;
+  height:250px;
       margin:2%;
       border-radius:15px;
 }
-.img4{
-    width:20%;
-     height:30%;
+#img4{
+  width:auto;
+  height:250px;
       margin:2%;
       border-radius:15px;
 }

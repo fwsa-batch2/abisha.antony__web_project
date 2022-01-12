@@ -1,10 +1,10 @@
-.log{
+.adding{
     justify-content:center;
     margin-top: 15%;
     border-radius: 24px;
     background-color:#fff;
     width:36%;
-    height: 25vh;
+    height: 30vh;
   text-align: center;
   margin-left: 30%;
   box-shadow: 5px 5px 10px grey;
@@ -33,7 +33,4 @@ button:hover{
   background-color: white;
   color: #12344d;
   border:1px solid #12344d;
-}
-#login{
-  background-color: green;
 }

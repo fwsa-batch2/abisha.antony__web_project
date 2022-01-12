@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>salsa</title>
-  <link rel="stylesheet" type="text/css" href="../css/level.css">
-<head>
 <style>
 body
 {
@@ -13,21 +12,21 @@ body
   background-position:center;
   size:100;
   background-size:cover;
+  text-align: center;
 }
 video{
   width: 600px;
   height: 400px;
 }
 h1{
- margin-left: 37%;
+
   color: white;
 }
 img{
   width:600px ;
   height: 400px;
-  border-radius:10;
-  text-align: center;
-  margin-left:15% ;
+  border-radius:10px;
+
 }
 pre{
   color: white;
@@ -38,24 +37,22 @@ pre{
 
 </style>
 </head>
-<body>
-  <h1>
+<body align = "center">
+  <h1 style="text-align: center;">
     SALSA
-  </h1>
-  <span>
-    
-    <img src ="../images/sals.jpeg" alt="salsa" >
-    <video controls autoplay >
+  </h1> 
+ <img src ="../images/sals.jpeg" alt="salsa" > 
+    <video controls muted autoplay ><track  kind="subtitles" srclang="en" label="English" />
       <source src="../salsa dance.mp4" type="video/mp4">
     </video>
-  
+  <br>
   <pre >
     Salsa is a Latin dance associated with the music genre of the same name
     which was first popularized in the United States in the 1960s in New York City.
     Salsa is an amalgamation of Cuban dances such mambo, pachanga,
      and rumba as well as American dances such as swing and tap.
    </pre>
-
-  </span>
+<div id="review-div"></div>
+ <script src="./review.js"></script>
 </body>
 </html>

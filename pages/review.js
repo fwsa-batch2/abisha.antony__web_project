@@ -9,7 +9,7 @@ function review(){
     event.preventDefault();
     let name=document.getElementById("name").value;
     let email=document.getElementById("gmail").value;
-    let ratings=document.getElementById("rating").value;
+    let ratings=document.getElementById("rate").value;
     let feedback=document.getElementById("feedback").value;
     let main=document.getElementById("text");
     main.style.fontSize="40px"
@@ -44,4 +44,14 @@ function isuserexist(paraemail){
 
     }
     return isexist;
+}
+
+function listReview() {
+    const getFromLs  = JSON.parse(localStorage.getItem('reviewer'));
+    let i;
+    
+    for(i=0; i<getFromLs.length; i++){
+
+        document.getElementById('review-div').innerHTML += `Name: ${getFromLs[i].name} <br> Rating: ${getFromLs[i].ratings} <br> Feedback: ${getFromLs[i].feedback} <br> `
+    }
 }

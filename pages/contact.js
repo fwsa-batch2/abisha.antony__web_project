@@ -15,14 +15,14 @@ let email = document.getElementById("email").value;
 console.log(email);
 let mobile = document.getElementById("mobile").value;
 let message = document.getElementById("comments").value;
-let contact = {
+let contactus = {
     "Name":name,
     "Email":email,
     "Mobile":mobile,
     "Message":message
 
 }
-comment.push(contact);
+comment.push(contactus);
 alert('Received your Query');
 localStorage.setItem("Contact",JSON.stringify(comment));
 }
