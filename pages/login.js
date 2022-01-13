@@ -1,4 +1,4 @@
-function login(){
+function login(event){
     event.preventDefault();
     let email = document.getElementById("email").value
     let password = document.getElementById("password").value
@@ -16,8 +16,8 @@ function login(){
 function isuserexist(paramemail,parampassword){
 let num=false;
 const userdetails=JSON.parse(localStorage.getItem("user"));
-const num2 = userdetails.length;
-for(i=0;i<num2;i++){
+let i;
+for( i=0;i< userdetails.length;i++){
     const user=userdetails[i];
     const useremail=user.gmail;
     const userpassword=user.enterpassword;

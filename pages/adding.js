@@ -5,7 +5,7 @@ function onPageLoad(){
         add=dance;
     }
 }
-function adding(){
+function adding(event){
 event.preventDefault();
 
 let image = document.getElementById("image").value;
@@ -19,7 +19,7 @@ const newdancedetails = {
 add.push(newdancedetails);
 
 localStorage.setItem("details",JSON.stringify(add));
-window.location.href=""
+window.location.href="./added.html"
 
 }
 onPageLoad();

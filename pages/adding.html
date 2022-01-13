@@ -9,16 +9,16 @@
 </head>
 <body>
     <div class="adding">
-    <form onsubmit="adding()">
+    <form onsubmit="adding(event)">
       
-        <input type="text" placeholder="Dance Name" id="name"><br>
-        <input type="url"  placeholder="Cover Image" id="image"><br>
-        <input type="text"  placeholder="Cover Sentence" id="sentence"><br>
-   <a href="./added.html">
+        <input type="text" placeholder="Dance Name" id="name" required><br>
+        <input type="url"  placeholder="Cover Image" id="image" required><br>
+        <input type="text"  placeholder="Cover Sentence" id="sentence"required><br>
+   
         <button >Submit</button>
-   </a>
+   
     </form>
 </div>
-    <script src="./add.js"></script>
+    <script src="./adding.js"></script>
 </body>
 </html>
