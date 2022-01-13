@@ -9,10 +9,7 @@ function onPageLoad() {
 }
 console.groupEnd("OnPageLoad");
 }
-
-
-
-function sign() {
+function sign(event) {
     event.preventDefault();
     console.group("sign");
     let name = document.getElementById('username').value;
@@ -52,6 +49,7 @@ function emailvalid(currentemail){
     let userDetails=JSON.parse(localStorage.getItem("user"))
     let used = false;
     if(userDetails) {
+    let i;
     for(i=0;i<userDetails.length;i++){
         const userList=userDetails[i];
         const email = userList.gmail;
