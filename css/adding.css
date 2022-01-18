@@ -34,3 +34,7 @@ button:hover{
   color: #12344d;
   border:1px solid #12344d;
 }
+#image{
+  width: 20px;
+  height: 20px;
+}
