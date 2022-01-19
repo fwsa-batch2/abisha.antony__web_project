@@ -54,6 +54,6 @@ function listReview() {
 
     for (i = 0; i < getFromLs.length; i++) {
 
-        document.getElementById('review-div').innerHTML += `Name: ${getFromLs[i].name} <br> Rating: ${getFromLs[i].ratings} <br> Feedback: ${getFromLs[i].feedback} <br> `
+        document.getElementById('review-div').innerHTML += ` <br>Name: ${getFromLs[i].name} <br> Rating: ${getFromLs[i].ratings} <br> Feedback: ${getFromLs[i].feedback} <br> `
     }
 }

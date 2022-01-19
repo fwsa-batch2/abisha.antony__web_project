@@ -13,5 +13,5 @@ onPageLoad();
 function list(item){
 document.getElementById("new").innerHTML+=`<div>dance name:${item.dancename}</div>
 <div> Cover sentence:${item.coversentence}</div>
-<div>Cover image:<img src="${item.coverimage}" alt=" style="height:20px">`
+<div>Cover image:<img src="${item.coverimage} "  class  ="img" alt=" style="height:20px">`
 }
