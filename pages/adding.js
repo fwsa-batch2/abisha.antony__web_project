@@ -8,7 +8,7 @@ function onPageLoad(){
 function adding(event){
 event.preventDefault();
 
-let image = document.getElementById("image").value;
+let image = document.getElementById("img").value;
 let sentence = document.getElementById("sentence").value;
 let name = document.getElementById("name").value;
 const newdancedetails = {
