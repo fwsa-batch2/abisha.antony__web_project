@@ -17,7 +17,6 @@ input{
   border-radius: 7px;
 }
 button{
-
     width:120px;
     margin-left:20px;
     border-radius:5px;
@@ -26,14 +25,14 @@ button{
     color:white;
     border:none;
     margin-top:-5% ;
-
-  
 }
 button:hover{
   background-color: white;
   color: #12344d;
   border:1px solid #12344d;
 }
-#login{
-  background-color: green;
+#login:hover{
+  background-color: white;
+  color:#12344d;
+  border: 1px solid #12344d;
 }

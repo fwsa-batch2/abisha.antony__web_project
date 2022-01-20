@@ -5,8 +5,6 @@ ul {
     overflow: hidden;
     background-color:#12344d;
   }
-
-
  body{
    margin: 0;
  }
@@ -49,9 +47,7 @@ ul {
   div{
     display: inline-block;
   }
-  /* .img{
-    margin-left: 60%;
-  } */
+
   .images{
     margin-left: 290px;
   }
@@ -155,6 +151,6 @@ padding:5px ;
 border-radius: 5px;
 }
 .img{
-  height: 20px;
-  width: 20px;
+  height: 100px;
+  width: 99px;
 }

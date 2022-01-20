@@ -14,9 +14,6 @@ ul {
                  overflow: hidden;
                  background-color:#12344d;
                }
-      
-               
-            
                li {
                  float: left;
                }
@@ -30,25 +27,25 @@ ul {
                li a:hover {
                  background-color:#052b44;
                }
-#img1{
+#hiphop{
   width:auto;
   height:250px;
       margin:2%;
       border-radius:15px;
 }
-#img2{
+#salsa{
   width:auto;
   height:250px;
       margin:2%;
       border-radius:15px;
 }
-#img3{
+#garba{
   width:auto;
   height:250px;
       margin:2%;
       border-radius:15px;
 }
-#img4{
+#bhangra{
   width:auto;
   height:250px;
       margin:2%;
@@ -64,7 +61,6 @@ button{
      margin:2%;
      border-radius:5px;
      font-size: 1.5vw;
-
 }
 input{
   padding:0.5%;
@@ -72,5 +68,4 @@ input{
   width:15%;
   border-radius:30px;
   font-size: 1vw;
-  
 }
