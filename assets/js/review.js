@@ -23,7 +23,7 @@ function review(event) {
         fullarr.push(reviewlist);
         localStorage.setItem("reviewer", JSON.stringify(fullarr));
         alert("Thank you for reviewing us")
-        window.location.href = "//index.html";
+        window.location.href = "../../index.html";
     }
     else {
         alert("please use the registered email to review");
