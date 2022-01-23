@@ -9,7 +9,7 @@ body{
     padding-left: 5%;
     margin-top: -18%;
   }
-  .ajay{
+  .click{
     background-color: #12344d;
     color: white;
     padding: 10px;
@@ -50,7 +50,7 @@ body{
     margin-top:-5% ;
 
   }
-.ajay:hover{
+.click:hover{
     background-color: white;
     color: #12344d;
     border:1px solid #12344d;
@@ -96,15 +96,15 @@ body{
     font-size:50px;
     margin-top:5%;
   }
-  .login{
+  #login{
     font-size: 2vh;
       margin-top: -5%;
      margin-left: 3%;
      width:100px ;
      padding: 10px 10px;
      
-     
   }
+ 
   p{
     font-size: 2vh;
     font-weight: 100;

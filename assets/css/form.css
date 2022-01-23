@@ -1,0 +1,62 @@
+body {
+    margin: 0%;
+    background-image: url(../images/pink.jpeg);
+    background-position: center;
+    size: 100;
+    background-size: cover
+    
+  }
+
+  .nxt {
+    cursor: pointer;
+    background-color: #12344d;
+    color: white;
+    border: none;
+    padding: 20px;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 25px;
+    margin-left: 45%;
+  }
+
+  .nxt:hover {
+    background-color: white;
+    color: #12344d;
+    border: 1px solid #12344d;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #12344d;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #052b44;
+  }
+  p{
+    color: black;
+    text-align: center;
+    font-size: 4vh;
+  }
+  div{
+    margin-left: 45%;
+  }
+   label{
+     font-size: 3vh;
+   }
+  
