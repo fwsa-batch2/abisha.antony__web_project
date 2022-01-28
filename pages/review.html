@@ -41,6 +41,9 @@ li {
   }
   </style>
 <body>
+  <header>
+    <div class="brandName">Dance Academy</div>
+  <nav>
     <ul>
         <li><a href="./aboutus.html">About Us</a></li>
         <li><a href="./dancecourses.html">Dance Styles</a></li>
@@ -49,31 +52,42 @@ li {
         <li><a href="./level.html">Dance Courses</a></li>
         <li><a href="./review.html">Review</a></li>
       </ul>
+    </nav>
+  </header>
+  <main>
+    <h1 class="page-title">Review</h1>
     <div class="review">
     <form onsubmit="review(event)">
-        <input type="text" placeholder="Enter Your Name" id="name" required><br>
-        <input type="email" placeholder="Enter Your email" id="gmail" required><br>
+        <input type="text" placeholder="Enter Your Name" id="name" required autofocus><br>
+
+        <input type="email" placeholder="Enter Your email" id="gmail" required><br> <!-- Why you want name,email ? after login, you should fetch details name,email from localStorage-->
         Rating
-        <select id="rate">
-        <option value="⭐⭐⭐⭐⭐">⭐⭐⭐⭐⭐</option>
-        <option value="⭐⭐⭐⭐">⭐⭐⭐⭐</option>
-        <option value="⭐⭐⭐">⭐⭐⭐</option>
-        <option value="⭐⭐">⭐⭐</option>
-        <option value="⭐">⭐</option>
-        </select> <br>
+        <select id="rate" required>
+        <option value="5">⭐⭐⭐⭐⭐</option>
+        <option value="4">⭐⭐⭐⭐</option>
+        <option value="3">⭐⭐⭐</option>
+        <option value="2">⭐⭐</option>
+        <option value="1">⭐</option>
+        </select> <br/>
     
     
-        <input type="text" id="feedback" ><br>
-        <a href="./ourreviews.html">
+        <input type="text" id="feedback" required placeholder="Enter Feedback comments"/><br/>
+
+        <textarea cols="30" rows="10" required>
+
+        </textarea>
+
+        <!--Dont use button tag inside a tag-->
+        <a href="./ourreviews.html" class="btn-link">
         <button value="submit" class="submit">Submit
             </button>
             </a>
            
         </div>
     </form>
-  <div id="text">
 
-  </div>
+</main>
+<footer></footer>
   <script src="../assets/js/review.js"></script>
 </body>
 </html>
