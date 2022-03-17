@@ -5,7 +5,7 @@ function login(event){
     const num=isuserexist(email,password);
     if(num){
         localStorage.setItem("loggedinuser",email)
-        window.location.href="./../../index.html"
+        window.location.href="../../index.html";
     }
     else{
         alert("invalid email or password");

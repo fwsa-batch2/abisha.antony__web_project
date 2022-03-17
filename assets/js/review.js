@@ -29,7 +29,7 @@ function review(event) {
     // "main" - use meaningful variable name
 
 
-    main.style.fontSize = "40px"
+    // main.style.fontSize = "40px"
     //2. Validation
     const isexist = isuserexist(email)
     if (isexist) {
